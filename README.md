@@ -52,7 +52,7 @@ Fork this repository to your GitHub account or create a new project and copy the
 2. **GitHub Secrets Configuration**<br>
 To ensure secure operation without hardcoding keys, add credentials to your repository settings.
 Go to `Settings > Secrets and variables > Actions > New repository secret` and create the following secrets:
-- `KEY_ID` and `SECRET`: You must have a **Service Account created** in cloud.ru with the necessary permissions (e.g., **Evolution Compute: eiv.user**), as well as **Access Keys generated** in the **Access Credentials** section of the service account.
+- `KEY_ID` and `SECRET`: You must have a **Service Account created** in cloud.ru with the necessary permissions (e.g., **Evolution Compute: eiv.user**), as well as **Access Keys** generated in the **Access Credentials** section of the service account.
 - `PROJECT_ID`: Cloud Project ID.
 - `VM_1_ID`, `VM_2_ID`, `VM_3_ID`: Monitored VM IDs.
 - `TG_TOKEN`: Telegram bot token.
