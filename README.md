@@ -9,7 +9,7 @@ A lightweight and secure tool designed to monitor and automatically maintain the
 ### 🛠 Tech Stack
 - **Language:** Python 3.10
 - **API Integration:** [Cloud.ru SVC Public API](https://cloud.ru/docs/virtual-machines/ug/topics/api-ref-v3)
-- **Infrastructure:** GitHub Actions ([workflow automation](https://github.com/AndrewShedov/vm-inspector/actions/workflows/vm-inspector.yml))
+- **Infrastructure:** GitHub Actions ([workflow automation](https://github.com/AndrewShedov/vm-inspector/actions))
 - **Alerting:** Telegram Bot API
 
 ### 🌟 Features

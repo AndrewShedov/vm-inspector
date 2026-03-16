@@ -10,7 +10,7 @@
 ### 🛠 Технологический стек
 - **Language:** Python 3.10
 - **API Integration:** [Cloud.ru SVC Public API](https://cloud.ru/docs/virtual-machines/ug/topics/api-ref-v3)
-- **Infrastructure:** GitHub Actions ([автоматизация запусков](https://github.com/AndrewShedov/vm-inspector/actions/workflows/vm-inspector.yml))
+- **Infrastructure:** GitHub Actions ([автоматизация запусков](https://github.com/AndrewShedov/vm-inspector/actions))
 - **Alerting:** Telegram Bot API
 
 
