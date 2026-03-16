@@ -1,0 +1,33 @@
+name: VM Inspector
+
+on:
+  schedule:
+    - cron: '0,30 * * * *' 
+  workflow_dispatch: 
+
+jobs:
+  inspect-vm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run inspector script
+        env:
+          KEY_ID: ${{ secrets.KEY_ID }}
+          SECRET: ${{ secrets.SECRET }}
+          PROJECT_ID: ${{ secrets.PROJECT_ID }}
+          VM_1_ID: ${{ secrets.VM_1_ID }}
+          VM_2_ID: ${{ secrets.VM_2_ID }}
+          VM_3_ID: ${{ secrets.VM_3_ID }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: python vm-inspector.py
