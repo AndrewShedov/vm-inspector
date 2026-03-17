@@ -34,7 +34,7 @@
 Если инспектор видит, что ВМ выключена, он инициирует запуск командой `running`:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/AndrewShedov/vm-inspector/main/assets/stop_detected.png" alt="🚨 VM State: STOPPED"/>
+<img src="https://raw.githubusercontent.com/AndrewShedov/vm-inspector/main/assets/screenshot_1.png" alt="🚨 VM State: STOPPED"/>
 </p>
 
 [LIVE](https://t.me/ShedovTop_VMInspector/5)
@@ -43,7 +43,7 @@
 Если ВМ находится в статусе `stopping`, `starting` и т.д, облако может отклонить запрос (`API Code: 422`), в таком случае инспектор уведомит об этом:
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/AndrewShedov/vm-inspector/main/assets/start_failed.png" alt="🚨 VM Start Failed"/>
+<img src="https://raw.githubusercontent.com/AndrewShedov/vm-inspector/main/assets/screenshot_2.png" alt="🚨 VM Start Failed"/>
 </p>
 
 [LIVE](https://t.me/ShedovTop_VMInspector/4)
