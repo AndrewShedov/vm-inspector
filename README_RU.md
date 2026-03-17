@@ -2,7 +2,7 @@
 
 # VM Inspector
 
-[En](https://github.com/AndrewShedov/vm-inspector/blob/main/README.md)<br>
+[En](https://github.com/AndrewShedov/vm-inspector)<br>
 
 Легкий и безопасный инструмент для мониторинга и автоматического поддержания состояния `running` виртуальных машин в VPC.<br>
 
