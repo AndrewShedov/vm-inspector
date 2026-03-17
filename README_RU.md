@@ -73,7 +73,7 @@
 
 > **Ручной запуск:** Для быстрой проверки, перейдите во вкладку **Actions**, выберите **VM Inspector** в левом меню и нажмите кнопку **Run workflow**.
 
-### 📋 Результаты работы каждого запуска (логи `print(f...)` можно просмотреть в [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions/runs/23170770467/job/67321894887):
+### 📋 Результаты работы каждого запуска (логи `print(f...)` можно просмотреть в [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions/runs/23198814588/job/67414797242):
 
 1. Откройте вкладку **Actions**.
 2. Выберите любой запуск **VM Inspector**.
