@@ -40,7 +40,7 @@ def get_token():
 def check_and_start():
     token = get_token()
     if not token:
-        send_tg_message("⚠️ <b>VM Inspector Error</b>\nFailed to get Cloud.ru auth token.")
+        send_tg_message("⚠️ <b>VM Inspector Error</b>\nFailed to get Cloud.ru auth token")
         return
 
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
