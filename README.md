@@ -4,9 +4,9 @@
 
 [Ru](https://github.com/AndrewShedov/vm-inspector/blob/main/README_RU.md)<br>
 
-This repository performs real-time monitoring of the VMs hosting my projects [shedov.top](https://shedov.top/) and [crystal.you](https://crystal.you/) using [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions).<br>
-
 A lightweight and secure tool designed to monitor and automatically maintain the `running` state of virtual machines in a VPC.<br>
+
+This repository performs real-time monitoring of the VMs hosting my projects [shedov.top](https://shedov.top/) and [crystal.you](https://crystal.you/) using [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions).<br>
 
 ### 🛠 Tech Stack
 - **Language:** Python 3.10
