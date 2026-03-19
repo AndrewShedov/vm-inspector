@@ -71,7 +71,7 @@ Go to `Settings > Secrets and variables > Actions > New repository secret` and c
 
 > **Manual Launch:** For an immediate check, go to the **Actions** tab, select **VM Inspector** in the left menu, and click the **Run workflow** button.
 
-### 📋 Job results (logs `print(f...)` can be viewed in [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions/runs/23198814588/job/67414797242):
+### 📋 Job results (logs `print(f...)` can be viewed in [Actions](https://github.com/AndrewShedov/vm-inspector/actions/runs/23198814588/job/67414797242):
 
 1. Open the **Actions** tab.
 2. Select any **VM Inspector** run.
