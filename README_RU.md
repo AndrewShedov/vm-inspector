@@ -5,7 +5,7 @@
 [En](https://github.com/AndrewShedov/vm-inspector)<br>
 
 Легкий и безопасный инструмент для мониторинга и автоматического поддержания состояния `running` виртуальных машин в VPC.<br>
-Данный репозиторий в реальном времени сканирует ВМ в которых развёрнуты мои проекты [shedov.top](https://shedov.top/) и [crystal.you](https://crystal.you/) с помощью [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions).<br>
+Данный репозиторий в реальном времени контролирует ВМ в которых развёрнуты мои проекты [shedov.top](https://shedov.top/) и [crystal.you](https://crystal.you/) с помощью [GitHub Actions](https://github.com/AndrewShedov/vm-inspector/actions).<br>
 
 ### 🛠 Технологический стек
 - **Language:** Python 3.10
