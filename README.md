@@ -31,20 +31,23 @@ This repository performs real-time monitoring of the VMs hosting my projects [sh
 - **VM Downtime Detected**<br>
 If the inspector detects that a VM is off, it initiates a launch using the `running` command:
 
-<p align="center">
+
 <img src="https://raw.githubusercontent.com/AndrewShedov/vm-inspector/main/assets/screenshot_1.png" alt="🚨 VM State: STOPPED" width="500"/>
-</p>
 
 [LIVE](https://t.me/ShedovTop_VMInspector/5)
+
+<br>
 
 - **VM Start Failed (State Transition)**<br>
 If a VM is in `stopping`, `starting`, etc., the cloud may reject the request (`API Code: 422`). In this case, the inspector will notify you:
 
-<p align="center">
+
 <img src="https://raw.githubusercontent.com/AndrewShedov/vm-inspector/main/assets/screenshot_2.png" alt="🚨 VM Start Failed" width="500"/>
-</p>
+
 
 [LIVE](https://t.me/ShedovTop_VMInspector/4)
+
+<br>
 
 ### 🚀 Setup Instructions
 
